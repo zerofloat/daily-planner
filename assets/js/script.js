@@ -1,4 +1,4 @@
-console.log("JS is loaded");
+console.log("JS loaded");
 
 var timeNowEl = document.getElementById("currentDay")
 
@@ -8,7 +8,5 @@ timeNowEl.textContent = calendarDate;
 
 
 // timeNowEl.textcontent = 
-
-
 
 console.log(calendarDate);
