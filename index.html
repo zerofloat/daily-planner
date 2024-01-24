@@ -25,13 +25,21 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container"> 
+    <div class="container text-center"> 
+      <div class="row">
+        <div class="col hour">dayJS date placeholder</div>
+        <div class="col description"><textarea name="textarea" id="textarea"></textarea></div>
+        <div class="col saveBtn"><i class="fas fa-save"></i></div>
+    </div>
+
+
 <!-- <textarea name="test" cols="30" rows="10">      </textarea> -->
 
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.11.10/plugin/advancedFormat"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
