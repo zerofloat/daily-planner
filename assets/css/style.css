@@ -1,3 +1,10 @@
+
+:root {
+  border-width: 1px;
+  border
+  border-color: hotpink;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
